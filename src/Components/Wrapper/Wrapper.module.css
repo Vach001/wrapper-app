@@ -3,7 +3,8 @@
   padding: 0;
 }
 .wrapper {
-  display: flex;
+  display: flexbox;
+  background-color: rgb(231, 248, 212);
 }
 .report {
   background-color: rgb(232, 255, 127);

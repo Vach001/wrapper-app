@@ -1,7 +1,6 @@
 .reportDetail {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   margin: 5px;
   border: 1px solid rgb(224, 43, 43);
   border-radius: 10px;
