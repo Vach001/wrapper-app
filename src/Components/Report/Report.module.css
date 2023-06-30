@@ -1,0 +1,19 @@
+.reportDetail {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 5px;
+  border: 1px solid rgb(224, 43, 43);
+  border-radius: 10px;
+  justify-content: space-around;
+  align-items: normal;
+  justify-self: auto;
+}
+.reportText{
+    background-color: rgb(194, 238, 238);
+    border-radius: 5px;
+    margin: center;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(68, 0, 255);
+}

@@ -1,0 +1,10 @@
+.section {
+    display: flex;
+    height: auto;
+    margin: 10px;
+    width:50%;
+    border: 3px solid rgb(224, 43, 43);
+    border-radius: 10px;
+    justify-content: space-around;
+    justify-self: auto;
+}

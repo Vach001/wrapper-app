@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import cards from "../../assets/data/cards";
 import Button from "../Button/Button";
-import Styles from "./Card.module.css";
+import styles from "./Card.module.css";
 import CardDetails from "../CardDetals/CardDetails";
 
 export default function Card({ cards }) {
@@ -14,9 +13,13 @@ export default function Card({ cards }) {
   };
   return cards.map((card) => {
     return (
-      <div key={card.id} className={Styles.card}>
+      <div key={card.id} className={styles.card}>
         {card.show ? (
-          <CardDetails card={card} onClick={() => handleClick(card)} />
+          <CardDetails
+            card={card}
+            className={styles.text}
+            onClick={() => handleClick(card)}
+          />
         ) : (
           <Button onClick={() => handleClick(card)} />
         )}

@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  display: flex;
+}
+.report {
+  background-color: rgb(232, 255, 127);
+  display: block;
+  width: 220px;
+  height: 40px;
+  font-size: 20px;
+  margin-top: 25px;
+}

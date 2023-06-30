@@ -1,0 +1,20 @@
+.cardNumber{
+    display: flexbox;
+    text-align: center;
+    color: rgb(11, 155, 155);
+    font-size: 50px;
+    margin: center;
+    display: block;
+}
+
+.closeCard{
+    display: flexbox;
+    font-display: flex;
+    width: 85%;
+    height: 55px;
+    font-size: 25px;
+    border-radius: 5px;
+    margin: 10px;
+    color: darkblue;
+    background-color: rgb(56, 248, 248);
+}
