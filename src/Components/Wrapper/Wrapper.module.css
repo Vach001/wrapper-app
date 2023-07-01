@@ -12,5 +12,11 @@
   width: 220px;
   height: 40px;
   font-size: 20px;
-  margin-top: 25px;
+  margin: 25px;
+  border-radius: 50px;
+}
+
+.report:hover{
+  background-color: rgb(219, 253, 64);
+  cursor: pointer;
 }

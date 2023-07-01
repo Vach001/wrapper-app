@@ -8,7 +8,7 @@ export default function Report({ cards }) {
     return (
       <div key={v4ID} className={styles.reportDetail}>
         <span className={styles.reportText}>
-          Card Number {card.number} unmounted {card.counter} times{" "}
+          Card Number <b>{card.number}</b> unmounted <b>{card.counter}</b> times{" "}
         </span>
       </div>
     );
